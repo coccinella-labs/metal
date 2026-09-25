@@ -62,14 +62,14 @@ Add to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/bniladridas/metal.git", from: "1.0.0")
+    .package(url: "https://github.com/coccinella-labs/metal.git", from: "1.0.0")
 ]
 ```
 
 ### Xcode
 
 1. File → Add Package Dependencies
-2. Enter: `https://github.com/bniladridas/metal.git`
+2. Enter: `https://github.com/coccinella-labs/metal.git`
 3. Add to your target
 
 ## Quick Start
@@ -117,7 +117,7 @@ This enables standalone Metal shader compilation and validation tools.
 ## Demo
 
 ```bash
-git clone https://github.com/bniladridas/metal.git
+git clone https://github.com/coccinella-labs/metal.git
 cd metal
 swift run demo
 ```
